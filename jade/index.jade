@@ -1,13 +1,22 @@
 doctype html
-html(lang="ja")
-  include includes/head.jade
+html
+  include includes/index/head.jade
   body
     include includes/navbar.jade
-    include includes/carousel.jade
-    include includes/summary.jade
-    include includes/detail.jade
+    include includes/index/carousel.jade
+    include includes/index/summary.jade
+    include includes/index/detail.jade
     div(class="container marketing")
       footer
         p(class="pull-right")
          a(href="#") Back to top
-        p &copy;2014 Zio 
+        p &copy;2014 Zio 埼玉県川口市新堀1155‐2  
+          span(class="glyphicon glyphicon-phone-alt") 048-298-4120  
+          span(class="glyphicon glyphicon-envelope") info.zio2011@gmail.com
+        p facebook page feed powered by 
+          a(href="http://feed.mikle.com/") RSS Feed Widget 
+        p
+          img(src="./assets/images/logo_master.gif")
+          img(src="./assets/images/logo_visa.gif")
+          img(src="./assets/images/logo_amex.gif")
+          img(src="./assets/images/logo_aplus.gif")

@@ -1,0 +1,33 @@
+doctype html
+html
+  include ./includes/product/head.jade
+    title="アクセス - アライメントショップ Zio"
+  body
+    include ./includes/navbar.jade
+    div(class="container theme-showcase" role="main")
+      div(class="jumbotron")   
+        h1 アクセス
+        p 車に関するどんな作業でもぜひ一度お問い合わせください
+        p スタッフ一同お待ちしております
+      div(class="page-header")
+        h2 所在地
+      div(class="row")
+        div(class="col-md-4")
+          iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.7990804594506!2d139.78161909999997!3d35.82940499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018915a99a636cf%3A0xacf38930f9db59cc!2z44Ki44Op44Kk44Oh44Oz44OI44K344On44OD44OX77y677yp77yv!5e0!3m2!1sja!2sjp!4v1402248109836" width="350" height="300" frameborder="0" style="border:0")
+        div(class="col-md-8")
+          p 郵便番号 334-0061 埼玉県川口市新堀(にいほり)1155‐2
+          p ロヂャース川口店の隣の小道を入った所です 
+          p お車の場合：首都高速川口線 新郷ICから約10分
+          p 電車の場合：東武スカイツリーライン 草加駅から川口駅行新堀経由バスで 新堀バス停下車すぐ
+      div(class="page-header")
+        h2 営業時間・定休日
+      div(class="row")
+        div(class="col-md-4")
+          img(src="./assets/images/thumbnail_access_00.jpg" alt="shop inside")
+        div(class="col-md-8")
+          p 営業時間：10:00 〜 20:00
+          p 定休日：毎週火曜日
+          p その他、レースおよび走行会参加のためお休みを頂くことがあります
+      include ./includes/product/inquiry.jade
+      hr
+    include ./includes/product/footer.jade

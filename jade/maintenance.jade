@@ -1,0 +1,75 @@
+doctype html
+html
+  include ./includes/product/head.jade
+    title="メンテナンス - アライメントショップ Zio"
+  body
+    include ./includes/navbar.jade
+    div(class="container theme-showcase" role="main")
+      div(class="jumbotron")   
+        h1 メンテナンス
+        p お車のメンテナンスお任せください！
+        p オイル交換から部品取り付けまでなんでも対応いたします
+      div(class="page-header")
+        h2 お車のメンテナンス
+      div(class="row")
+        div(class="col-md-4")
+          img(src="./assets/images/thumbnail_maintenance_00.jpg" alt="maintenance")
+        div(class="col-md-8")
+          p お車の調子はいかがですか？
+          p オイル交換から部品取り付け、車検、整備方針のご相談までZioになんでもお伝えください。
+          p 街乗りからスポーツ走行までお車の御利用用途、年式に合わせて最適のメンテナンスを提供いたします。
+      div(class="page-header")
+        a(name="oil")
+        h2 各種オイル交換
+      div(class="row")
+        div(class="col-md-4")
+          img(src="./assets/images/thumbnail_maintenance_01.jpg" alt="oil")
+        div(class="col-md-8")
+          p エンジンから変な音がする、急に燃費がわるくなってきた、加速が鈍い などなど・・・
+          p オイルが汚れているとよく出る症状です。3000km〜5000kmに一度オイル交換をしましょう。
+          ul
+            li エンジンオイル交換
+              ul
+                li 作業時間：30分　工賃：1,000円〜 オイル代：1,200円/1L〜
+                li 各種オイルを取り揃えております。お問い合わせください
+            li ミッションオイル交換
+              ul
+                li 作業時間：30分　工賃：2,500円〜 (別途オイル代)
+                li 各種オイルを取り揃えております。お問い合わせください
+            li デフオイル交換
+              ul
+                li 作業時間：30分　工賃：2,500円〜 (別途オイル代)
+                li 各種オイルを取り揃えております。お問い合わせください
+          p セット割引もあります！オイル交換２つセットで工賃500円引き！3つセットで1,000円引き！
+      div(class="page-header")
+        a(name="tire")
+        h2 タイヤ交換
+      div(class="row")
+        div(class="col-md-4")
+          img(src="./assets/images/thumbnail_maintenance_02.jpg" alt="tire")
+        div(class="col-md-8")
+          p タイヤがすり減ったり、ゴムが固くなってしまったりすると雨の日などにスリップしてしまい大変危険です
+          p お車に合わせたタイヤの取り寄せから取り付けまで対応いたします
+          p 作業時間：60分　タイヤ交換工賃:2,000円〜（1本）
+      div(class="page-header")
+        a(name="paint")
+        h2 板金・塗装
+      div(class="row")
+        div(class="col-md-4")
+          img(src="./assets/images/thumbnail_maintenance_03.jpg" alt="paint")
+        div(class="col-md-8")
+          p お車の擦り傷・凹み傷、塗装痛みなどなど・・・板金・塗装もお任せください
+          p 交通事故による修理の保険対応も可能です
+      div(class="page-header")
+        a(name="parts")
+        h2 部品取り付け・作成
+      div(class="row")
+        div(class="col-md-4")
+          img(src="./assets/images/thumbnail_maintenance_04.jpg" alt="parts")
+        div(class="col-md-8")
+          p 社外パーツのお取り寄せ＆取り付け、ワンオフマフラー作成・お車に合わせたステー作成など
+          p 溶接大好きスタッフがお客さまのご要望にお答えします
+      include ./includes/product/payment.jade
+      include ./includes/product/inquiry.jade
+      hr
+    include ./includes/product/footer.jade

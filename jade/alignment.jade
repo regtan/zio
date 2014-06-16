@@ -1,0 +1,64 @@
+doctype html
+html
+  include ./includes/product/head.jade
+    title="アライメント測定・調整 - アライメントショップ Zio"
+  body
+    include ./includes/navbar.jade
+    div(class="container theme-showcase" role="main")
+      div(class="jumbotron")   
+        h1 アライメント測定・調整
+        p 車がまっすぐ走らない・タイヤの偏摩耗が気になる・サーキットでタイムアタックしたい
+        p 経験豊かなスタッフが対応いたします
+      div(class="page-header")
+        h2 アライメント測定・調整
+      div(class="row")
+        div(class="col-md-4")
+          img(src="./assets/images/thumbnail_alignment_00.jpg" alt="alignment setting")
+        div(class="col-md-8")
+          p タイヤやサスペンションの性能を発揮するためにそれぞれ適正な取り付け角度が設定されています。しかし、その取り付け角度は走っていると少しずつズレが発生します。
+          p ズレたままにしておくとハンドルを真っ直ぐにしているはずなのに車が左右に流れていってしまったり、タイヤが偏摩耗してしまったりといろいろなところに影響が発生します。
+          p 症状が悪化する前にアライメント調整を行うことで症状の緩和や改善を行うことが可能です。
+      div(class="page-header")
+        h2 作業の内容
+      div(class="row")
+        div(class="col-md-4")
+          img(src="./assets/images/thumbnail_alignment_01.jpg" alt="alignment check")
+        div(class="col-md-8")
+          p 当店では以下のような流れでアライメント測定・調整を行います
+          ul
+            li 空気圧測定・調整
+              ul
+                li タイヤの空気圧を測定・調整し、より正確にアライメント測定を行う準備をします
+            li 計測・診断
+              ul
+                li 4輪アライメントテスターを利用し、お客さまの車両のアライメントの状態を測定します
+            li 調整
+              ul
+                li お客さまのご利用用途に応じてベストのセッティングに調整を行います
+            li テスト走行
+              ul
+                li テスト走行を行い、症状の改善具合や異音の有無など異常がないか確認を行います
+            li 走行後チェック
+              ul
+                li ハンドルセンターの調整などのチェックを行います。調整が完了するまで走行とチェックを行います。
+      div(class="page-header")
+        h2 プライスリスト・作業時間
+      div(class="row")
+        div(class="col-md-4")
+          img(src="./assets/images/thumbnail_price_00.jpg" alt="neotune body")
+        div(class="col-md-8")
+          p 価格・作業時間はタイヤ数によって変わります。
+          ul
+            li 作業時間：2時間〜
+            li 価格：25,000円〜
+      div(class="page-header")
+        h2 ご注意事項
+      div
+        ul
+          li 測定可能なホイールサイズは13インチ〜20インチです
+          li 極端に低車高のお車・大型車両（トラックなど）は調整できない場合がございます
+          li 一部車種において調整が出来ない部分があります。一度ご相談ください
+      include ./includes/product/payment.jade
+      include ./includes/product/inquiry.jade
+      hr
+    include ./includes/product/footer.jade
