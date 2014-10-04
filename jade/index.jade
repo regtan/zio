@@ -1,17 +1,26 @@
 doctype html
 html
-  include includes/index/head.jade
+  include ./includes/index/head.jade
   body
-    include includes/navbar.jade
-    include includes/index/carousel.jade
-    include includes/index/summary.jade
-    include includes/index/detail.jade
+    include ./includes/sns_scripts.jade
+    include ./includes/navbar.jade
+    include ./includes/index/carousel.jade
+    include ./includes/index/summary.jade
+    include ./includes/index/detail.jade
     div(class="container marketing")
       footer
         p(class="pull-right")
-         a(href="#") Back to top
-        p &copy;2014 Zio 埼玉県川口市新堀1155‐2  
-          span(class="glyphicon glyphicon-phone-alt") 048-298-4120  
+          a(href="#") Back to top
+          ul(class="sns_button" style="list-style:none;")
+            li
+              div(class="fb-like" data-href="http://zio-2011.com/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true")
+            li
+              div(data-plugins-type="mixi-favorite" data-service-key="64c692848d8d59da49e0da9a5f29d5902eb9faf5" data-size="medium" data-href="http://zio-2011.com/" data-show-faces="false" data-show-count="true" data-show-comment="true" data-width="" class="float:left;")
+            li
+              a(href="https://twitter.com/share" class="twitter-share-button" data-lang="jp" data-url="http://zio-2011.com/" data-counturl="horizontal") Tweet
+        p &copy;2014 アライメントショップZio 郵便番号 334-0061 埼玉県川口市新堀1155‐2　
+          span(class="glyphicon glyphicon-phone-alt") ・
+          span(class="glyphicon glyphicon-print") 048-298-4120　 
           span(class="glyphicon glyphicon-envelope") info.zio2011@gmail.com
         p facebook page feed powered by 
           a(href="http://feed.mikle.com/") RSS Feed Widget 

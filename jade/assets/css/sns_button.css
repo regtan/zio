@@ -1,0 +1,13 @@
+.sns_button {
+  overflow: hidden;
+}
+.sns_button ul {
+  list-style:none !important;
+}
+.sns_button li {
+  float: left;
+  margin-right: 4px;
+}
+.sns_button iframe {
+  margin: 0 !important;
+}
